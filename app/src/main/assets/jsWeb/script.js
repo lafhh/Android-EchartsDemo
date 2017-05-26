@@ -6,11 +6,13 @@ function onPageLoad()
 {
     globalStr = Android.onPageLoad();
 //    document.write("<h1>" + globalStr + "</h1>")
+    document.getElementById("one").innerHTML = Android.toString();
+
 }
 
-function readFileContent() 
+function readFileContent()
 {
-    
+
     fileContent = Android.readFile();
     showToast(fileContent);
     document.getElementById("commontext").innerHTML=fileContent;
@@ -22,5 +24,11 @@ function showToast(toast) {
 }
 
 function makeOption(){
-    
+
+}
+
+function show1() {
+    var value = Android.toString();
+    showToast(value);
+    document.getElementById("show1").innerHTML = value;
 }

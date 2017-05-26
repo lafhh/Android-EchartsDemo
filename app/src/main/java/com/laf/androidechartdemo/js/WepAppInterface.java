@@ -9,6 +9,7 @@ import android.widget.Toast;
  */
 public class WepAppInterface {
 
+    public String str = "Hello";
     private Context mContext;
 
     public WepAppInterface(Context context) {
@@ -40,4 +41,7 @@ public class WepAppInterface {
         Toast.makeText(mContext, "页面加载中...", Toast.LENGTH_SHORT).show();
         return "onPageLoad";
     }
+
+    @JavascriptInterface
+    public String toString() { return "injectedObject"; }
 }

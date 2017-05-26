@@ -2,139 +2,121 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\libs\ECharts-3.0.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a548e81b5c3bf9f7e9d4a5ae432b154916738ea1">
-        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\ECharts-3.0.0.2_eb64cb2ba6aa4d4144efee01bb9ba604840e3b5c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\js_gg\.android\build-cache\da241499413b25d1be20cc50d9fc84c1a7f843e3\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
-        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e57343da32ea384b6a449e7bec0fc9b86daeb188\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\js_gg\.android\build-cache\dd30d02d0a5d36b51c3df7448db62f234f09ec34\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
-        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_65439cd3f5dc0a82c22b96a8cd5dcf34395e3964\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\js_gg\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_1e29dbbffabee09d4256594736b65e4da941dbe3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\js_gg\.android\build-cache\d339a460fd4bc3c446edc20d85642a16ec7da450\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bf7aba7cd82818e4fd9e022333be3023eadd24c3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\js_gg\.android\build-cache\7373534bb134437530dc05826ca06b8850612905\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
-        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_92165802ce5c274419a7d4e6c977ba98ab6a229d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f546946d92bc2a3d2b786204b5150a047ed240cb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\js_gg\.android\build-cache\2ac2d2d948747b110b30a5acb86ca0e93bd3670e\output\jars\classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
-        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_789424d01d7646c2189080fdc88ee4d834de2af6\classes.dex" />
+        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\pre-dexed\debug\classes_789424d01d7646c2189080fdc88ee4d834de2af6.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\js_gg\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="840cd972a9b32ac9b0c865f41eddaec529b14bf3">
-        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_95ff3445e15720b21c0a3193685587ca4babcb78\classes.dex" />
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_1e29dbbffabee09d4256594736b65e4da941dbe3.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\js_gg\.android\build-cache\4e4efdfd4c4b7983b5576b68ae0c627e443a4173\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\js_gg\.android\build-cache\7373534bb134437530dc05826ca06b8850612905\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_68584054f652f3856deef7798f5cec0f2e004212\classes.dex" />
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\pre-dexed\debug\classes_92165802ce5c274419a7d4e6c977ba98ab6a229d.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\js_gg\.android\build-cache\2584a3ba2222274161a1c5a79e0f8fd7e743c02c\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
-        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_537e36c00c94a4f27f4fcbae29f24d0d0a268f0e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\js_gg\.android\build-cache\4da09b9e72ccce898b05713cbb80e198bed18a09\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="518768f3200963fbfec652f498da2c9d39245234">
-        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4fa60afc6cd1fd26d1084781d9f1a749aa95fec7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\js_gg\.android\build-cache\5b5112b60a2857a0a2676921fe5798e320911e96\output\jars\classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
-        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5369faf96070fe166677b4281e21ed7f31b417af\classes.dex" />
+        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\pre-dexed\debug\classes_5369faf96070fe166677b4281e21ed7f31b417af.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="C:\Users\js_gg\.android\build-cache\2584a3ba2222274161a1c5a79e0f8fd7e743c02c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\pre-dexed\debug\classes_537e36c00c94a4f27f4fcbae29f24d0d0a268f0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\js_gg\.android\build-cache\dd30d02d0a5d36b51c3df7448db62f234f09ec34\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\pre-dexed\debug\classes_65439cd3f5dc0a82c22b96a8cd5dcf34395e3964.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\js_gg\.android\build-cache\da241499413b25d1be20cc50d9fc84c1a7f843e3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\pre-dexed\debug\classes_e57343da32ea384b6a449e7bec0fc9b86daeb188.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\libs\ECharts-3.0.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a548e81b5c3bf9f7e9d4a5ae432b154916738ea1">
+        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\pre-dexed\debug\ECharts-3.0.0.2_eb64cb2ba6aa4d4144efee01bb9ba604840e3b5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\js_gg\.android\build-cache\4e4efdfd4c4b7983b5576b68ae0c627e443a4173\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\pre-dexed\debug\classes_68584054f652f3856deef7798f5cec0f2e004212.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\js_gg\.android\build-cache\4da09b9e72ccce898b05713cbb80e198bed18a09\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\pre-dexed\debug\classes_4fa60afc6cd1fd26d1084781d9f1a749aa95fec7.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\js_gg\.android\build-cache\27301773a9f4d2ffbdecb74accf35393eb0347ac\output\jars\classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
-        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e2c1a93f402c96334ad988bf4a833c8fc271053c\classes.dex" />
+        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\pre-dexed\debug\classes_e2c1a93f402c96334ad988bf4a833c8fc271053c.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\js_gg\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
-        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.0_2e58f0be88338fb9f009ddadd3e6b0b86cd7620a\classes.dex" />
+        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.0_2e58f0be88338fb9f009ddadd3e6b0b86cd7620a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\js_gg\.android\build-cache\d339a460fd4bc3c446edc20d85642a16ec7da450\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\js_gg\work\gitP\Android-EchartsDemo\app\build\intermediates\pre-dexed\debug\classes_bf7aba7cd82818e4fd9e022333be3023eadd24c3.jar" />
     </item>
 
 </items>

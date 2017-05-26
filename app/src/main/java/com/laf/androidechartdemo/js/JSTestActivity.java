@@ -17,6 +17,7 @@ public class JSTestActivity extends AppCompatActivity {
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
         mWebView.addJavascriptInterface(new WepAppInterface(this), "Android");
+//        mWebView.addJavascriptInterface(new JsObject(), "injectedObject");
         mWebView.loadUrl("file:///android_asset/jsWeb/index.html");
 
 
