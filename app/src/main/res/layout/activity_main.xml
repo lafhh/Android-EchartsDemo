@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TableLayout
+        android:id="@+id/tablelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:shrinkColumns="*"
+        >
+
+        <TableRow android:gravity="center">
+
+            <TextView
+                android:id="@+id/textview0_row1"
+                android:gravity="center"
+                android:text="col1" />
+
+            <TextView
+                android:id="@+id/textview1_row1"
+                android:gravity="center"
+                android:text="col2" />
+
+            <TextView
+                android:id="@+id/textview2_row1"
+                android:layout_span="2"
+                android:gravity="center"
+                android:text="col3" />
+
+            <TextView
+                android:id="@+id/textview3_row1"
+                android:gravity="center"
+                android:text="col4" />
+
+            <TextView
+                android:id="@+id/textview4_row1"
+                android:gravity="center"
+                android:text="col5" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tablerow_data"
+            >
+           <ScrollView
+               android:id="@+id/scrollview"
+               android:layout_span="6"
+               >
+
+           </ScrollView>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
