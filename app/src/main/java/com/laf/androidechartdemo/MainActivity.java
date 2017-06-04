@@ -17,7 +17,6 @@ import static android.media.CamcorderProfile.get;
 public class MainActivity extends AppCompatActivity {
 
     private WebView mWebView;
-    private TableLayout tableLayout;
     private ScrollView scrollView;
 
     @Override
@@ -34,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
 //        mWebView.addJavascriptInterface(new JsObject(), "injectedObject");
         mWebView.loadUrl("file:///android_asset/jsWeb/main.html");
 
-        tableLayout = (TableLayout) findViewById(R.id.tablelayout);
         scrollView = (ScrollView) findViewById(R.id.scrollview);
         initData();
     }

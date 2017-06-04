@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <TableRow>
+        <Button
+                android:text="Open"/>
+        <TextView
+                android:text="~/path/to/file/to/open"
+                android:padding="3dp"
+        />
+    </TableRow>
+    <TableRow>
+        <Button
+              android:text="Save All"/>
+    </TableRow>
+    <TableRow>
+        <Button
+                android:text="Save"
+                android:visibility="invisible"
+        />
+        <TextView
+                android:text="~/.profile"
+                android:padding="3dp"
+        />
+    </TableRow>
+
+</TableLayout>

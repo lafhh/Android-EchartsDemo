@@ -27,11 +27,11 @@
                 android:gravity="center_horizontal">
 
                 <TextView
-                    android:background="@android:color/holo_orange_dark"
-                    android:gravity="center"
-                    android:text="weather table"
-                    android:layout_span="6"
-                    />
+                        android:background="@android:color/holo_orange_dark"
+                        android:gravity="center"
+                        android:text="weather table"
+                        android:layout_span="6"
+                        android:id="@+id/textView"/>
             </TableRow>
 
             <TableRow
@@ -45,31 +45,31 @@
                     android:text="" />
 
                 <TextView
-                    android:id="@+id/textview1_row1"
-                    android:text="Feb 7"
-                    android:textStyle="bold"
-                    android:typeface="serif" />
+                        android:id="@+id/textview1_row1"
+                        android:text="Feb 7"
+                        android:textStyle="bold"
+                        android:typeface="serif"/>
 
                 <TextView
-                    android:id="@+id/textview2_row1"
-                    android:layout_height="wrap_content"
-                    android:text="Feb 8"
-                    android:textStyle="bold"
-                    android:typeface="serif" />
+                        android:id="@+id/textview2_row1"
+                        android:layout_height="wrap_content"
+                        android:text="Feb 8"
+                        android:textStyle="bold"
+                        android:typeface="serif"/>
 
                 <TextView
-                    android:id="@+id/textview3_row1"
-                    android:layout_height="wrap_content"
-                    android:text="Feb 9"
-                    android:textStyle="bold"
-                    android:typeface="serif" />
+                        android:id="@+id/textview3_row1"
+                        android:layout_height="wrap_content"
+                        android:text="Feb 9"
+                        android:textStyle="bold"
+                        android:typeface="serif"/>
 
                 <TextView
-                    android:id="@+id/textview4_row1"
-                    android:layout_height="wrap_content"
-                    android:text="Feb 10"
-                    android:textStyle="bold"
-                    android:typeface="serif" />
+                        android:id="@+id/textview4_row1"
+                        android:layout_height="wrap_content"
+                        android:text="Feb 10"
+                        android:textStyle="bold"
+                        android:typeface="serif"/>
 
                 <TextView
                     android:id="@+id/textview5_row1"
@@ -96,14 +96,14 @@
                     android:text="28 F" />
 
                 <TextView
-                    android:id="@+id/textview3_row2"
-                    android:gravity="center_horizontal"
-                    android:text="26 F" />
+                        android:id="@+id/textview3_row2"
+                        android:gravity="center_horizontal"
+                        android:text="26 F"/>
 
                 <TextView
-                    android:id="@+id/textview4_row2"
-                    android:gravity="center_horizontal"
-                    android:text="20 F" />
+                        android:id="@+id/textview4_row2"
+                        android:gravity="center_horizontal"
+                        android:text="20 F"/>
 
                 <TextView
                     android:id="@+id/textview5_row2"
@@ -122,9 +122,9 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textview2_row3"
-                    android:gravity="center_horizontal"
-                    android:text="10 F" />
+                        android:id="@+id/textview2_row3"
+                        android:gravity="center_horizontal"
+                        android:text="10 F"/>
 
                 <TextView
                     android:id="@+id/textview3_row3"
