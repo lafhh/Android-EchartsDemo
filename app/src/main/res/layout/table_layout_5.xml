@@ -2,7 +2,8 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             android:stretchColumns="2">
+             android:stretchColumns="1"
+    >
 
     <!-- 整行与合并列的行为是不同的，看最后添加的test和quit；剩余空间是第3列 -->
     <TableRow>

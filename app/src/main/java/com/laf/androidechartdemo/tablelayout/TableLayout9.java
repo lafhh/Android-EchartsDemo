@@ -16,14 +16,13 @@
 
 package com.laf.androidechartdemo.tablelayout;
 
-import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.widget.TableLayout;
 import android.widget.Button;
 import android.os.Bundle;
 import android.view.View;
-
+import com.laf.androidechartdemo.R;
 
 public class TableLayout9 extends Activity {
     private boolean mShrink;

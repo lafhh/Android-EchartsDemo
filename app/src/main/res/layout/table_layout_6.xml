@@ -4,6 +4,7 @@
              android:layout_height="match_parent"
              android:stretchColumns="1">
 
+    <!-- layout_column的使用 -->
     <TableRow>
         <TextView
                 android:layout_column="1"

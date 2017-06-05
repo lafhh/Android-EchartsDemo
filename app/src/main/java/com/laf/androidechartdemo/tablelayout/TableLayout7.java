@@ -16,7 +16,6 @@
 
 package com.laf.androidechartdemo.tablelayout;
 
-import com.example.android.apis.R;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -26,7 +25,7 @@ import android.widget.Button;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
-
+import com.laf.androidechartdemo.R;
 
 public class TableLayout7 extends Activity {
     private boolean mShortcutsCollapsed;
@@ -64,11 +63,13 @@ public class TableLayout7 extends Activity {
         TableRow row = new TableRow(this);
 
         TextView label = new TextView(this);
-        label.setText(R.string.table_layout_7_quit);
+//        label.setText(R.string.table_layout_7_quit);
+        label.setText("Quit");
         label.setPadding(3, 3, 3, 3);
 
         TextView shortcut = new TextView(this);
-        shortcut.setText(R.string.table_layout_7_ctrlq);
+//        shortcut.setText(R.string.table_layout_7_ctrlq);
+        label.setText("ctrl-q");
         shortcut.setPadding(3, 3, 3, 3);
         shortcut.setGravity(Gravity.RIGHT | Gravity.TOP);
 
