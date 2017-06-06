@@ -16,7 +16,6 @@
 
 package com.laf.androidechartdemo.tablelayout;
 
-
 import android.app.Activity;
 import android.widget.TableLayout;
 import android.widget.Button;

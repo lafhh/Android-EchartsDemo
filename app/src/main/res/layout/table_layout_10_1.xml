@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    >
+
+    <TableRow>
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dp"
+            android:text="User"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/username"
+            android:padding="3dp"
+            android:scrollHorizontally="true"
+            android:text="" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dp"
+            android:text="Password"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/pwd"
+            android:padding="3dp"
+            android:password="true"
+            android:scrollHorizontally="false"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:gravity="right"
+        >
+
+        <Button
+            android:id="@+id/cancel"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/login"
+            android:text="Login" />
+    </TableRow>
+</TableLayout>

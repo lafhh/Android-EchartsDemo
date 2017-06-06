@@ -70,21 +70,25 @@
             android:padding="3dip" />
     </TableRow>
 
-    <TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
         <View
             android:layout_height="68dip"
             android:background="#FF909090" />
         <!-- Aligns the content of the cell to the bottom right -->
         <TextView
-            android:text="@string/table_layout_7_export"
-            android:background="#FFFF0000"
             android:layout_gravity="right|bottom"
-            android:padding="3dip" />
+            android:background="#FFFF0000"
+            android:padding="3dip"
+            android:text="@string/table_layout_7_export" />
+
         <TextView
-            android:text="@string/table_layout_7_export_shortcut"
             android:background="#FF00FFFF"
             android:gravity="right"
-            android:padding="3dip" />
+            android:padding="3dip"
+            android:text="@string/table_layout_7_export_shortcut" />
     </TableRow>
 
     <View

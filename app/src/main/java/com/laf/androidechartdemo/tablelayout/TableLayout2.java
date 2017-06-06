@@ -15,6 +15,6 @@ public class TableLayout2 extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.table_layout_7_1);
+        setContentView(R.layout.table_layout_12_1);
     }
 }

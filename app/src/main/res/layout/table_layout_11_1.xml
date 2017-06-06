@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    >
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Open..."
+            android:padding="3dp"
+            />
+        <TextView
+            android:text="Ctrl+O"
+            android:padding="3dp"
+            android:gravity="right"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:background="#FF00FF00"
+            android:text="Save..."
+            android:padding="3dp"
+            />
+        <TextView
+            android:text="Ctrl+S"
+            android:padding="3dp"
+            android:gravity="right"
+            />
+    </TableRow>
+    <TableRow>
+        <!-- gravity和layout_gravity cell的大小和控件本身的大小-->
+        <!-- 试着把layout_gravity替换成gravity，观察背景色 -->
+        <TextView
+            android:layout_column="1"
+            android:text="Save As..."
+            android:background="#FFFF0000"
+            android:padding="3dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:text="Ctrl+Shift+S"
+            android:background="#FFFF00FF"
+            android:gravity="right"
+            android:padding="3dp"
+            />
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+    <TableRow>
+        <TextView
+            android:text="X"
+            android:padding="3dp"
+            />
+        <TextView
+            android:text="Import..."
+            android:padding="3dp"
+            />
+    </TableRow>
+    <TableRow>
+        <View
+            android:layout_height="68dp"
+            android:background="#FF909090"
+            />
+        <!--  Aligns the content of the cell to the bottom right -->
+        <TextView
+            android:layout_gravity="right|bottom"
+            android:text="Export..."
+            android:padding="3dp"
+            android:background="#ffff0000"
+            />
+        <TextView
+            android:text="Ctrl+E"
+            android:padding="3dp"
+            android:background="#FF00FFFF"
+            android:gravity="right"
+            />
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+</TableLayout>

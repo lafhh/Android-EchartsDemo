@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow>
+
+        <TextView
+            android:background="#FFFF0000"
+            android:padding="3dip"
+            android:text="@string/table_layout_12_a" />
+
+        <TextView
+            android:background="#FF00FF00"
+            android:padding="3dip"
+            android:text="@string/table_layout_12_b" />
+
+        <TextView
+            android:background="#FF0000FF"
+            android:padding="3dip"
+            android:text="@string/table_layout_12_c" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_span="2"
+            android:background="#ff0000ff"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="D" />
+
+        <TextView
+            android:background="#FF00FF00"
+            android:padding="3dp"
+            android:text="E" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:background="#FFFF00FF"
+            android:padding="3dip"
+            android:text="@string/table_layout_12_f" />
+
+        <TextView
+            android:background="#FF00FF00"
+            android:padding="3dip"
+            android:text="@string/table_layout_12_g" />
+
+        <TextView
+            android:background="#FFFF0000"
+            android:padding="3dip"
+            android:text="@string/table_layout_12_h" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:background="#FF00FF00"
+            android:padding="3dp"
+            android:text="A" />
+
+        <TextView
+            android:layout_span="2"
+            android:background="#ff0000ff"
+            android:gravity="center_horizontal"
+            android:padding="3dp"
+            android:text="BB" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_span="3"
+            android:background="#FFC0C0C0"
+            android:gravity="center_horizontal"
+            android:padding="3dp"
+            android:text="G" />
+    </TableRow>
+</TableLayout>

@@ -44,32 +44,6 @@
                     android:gravity="center"
                     android:text="col5"/>
         </TableRow>
-        <TableRow>
-            <TextView
-                    android:id="@+id/textview0_row1"
-                    android:gravity="center"
-                    android:text="col1,1"/>
-
-            <TextView
-                    android:id="@+id/textview1_row1"
-                    android:gravity="center"
-                    android:text="col1,2"/>
-            <TextView
-                    android:id="@+id/textview2_row1"
-                    android:layout_span="2"
-                    android:gravity="center"
-                    android:text="col1,3"/>
-
-            <TextView
-                    android:id="@+id/textview3_row1"
-                    android:gravity="center"
-                    android:text="col1,4"/>
-
-            <TextView
-                    android:id="@+id/textview4_row1"
-                    android:gravity="center"
-                    android:text="col1,5"/>
-        </TableRow>
         <ScrollView
                 android:id="@+id/scrollview"
         >

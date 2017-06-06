@@ -69,9 +69,11 @@
             android:background="#FF909090" />
 
     <TableRow>
+
         <TextView
-                android:layout_column="1"
-                android:text="@string/table_layout_6_quit"
-                android:padding="3dip" />
+            android:id="@+id/textView2"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="@string/table_layout_6_quit" />
     </TableRow>
 </TableLayout>
