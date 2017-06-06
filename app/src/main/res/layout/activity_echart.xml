@@ -15,6 +15,7 @@
             android:layout_height="wrap_content" />
 
         <TableLayout
+                android:id="@+id/tablelayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/webView"
@@ -22,131 +23,131 @@
             android:shrinkColumns="*"
             android:stretchColumns="*"
         >
-            <TableRow
-                android:id="@+id/tablerow_0"
-                android:gravity="center_horizontal">
+            <!--<TableRow-->
+                <!--android:id="@+id/tablerow_0"-->
+                <!--android:gravity="center_horizontal">-->
 
-                <TextView
-                        android:background="@android:color/holo_orange_dark"
-                        android:gravity="center"
-                        android:text="weather table"
-                        android:layout_span="6"
-                        android:id="@+id/textView"/>
-            </TableRow>
+                <!--<TextView-->
+                        <!--android:background="@android:color/holo_orange_dark"-->
+                        <!--android:gravity="center"-->
+                        <!--android:text="weather table"-->
+                        <!--android:layout_span="6"-->
+                        <!--android:id="@+id/textView"/>-->
+            <!--</TableRow>-->
 
-            <TableRow
-                android:id="@+id/tablerow_1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            <!--<TableRow-->
+                <!--android:id="@+id/tablerow_1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
 
-                <TextView
-                    android:id="@+id/textview0_row1"
-                    android:layout_height="wrap_content"
-                    android:text="" />
+                <!--<TextView-->
+                    <!--android:id="@+id/textview0_row1"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="" />-->
 
-                <TextView
-                        android:id="@+id/textview1_row1"
-                        android:text="Feb 7"
-                        android:textStyle="bold"
-                        android:typeface="serif"/>
+                <!--<TextView-->
+                        <!--android:id="@+id/textview1_row1"-->
+                        <!--android:text="Feb 7"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:typeface="serif"/>-->
 
-                <TextView
-                        android:id="@+id/textview2_row1"
-                        android:layout_height="wrap_content"
-                        android:text="Feb 8"
-                        android:textStyle="bold"
-                        android:typeface="serif"/>
+                <!--<TextView-->
+                        <!--android:id="@+id/textview2_row1"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Feb 8"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:typeface="serif"/>-->
 
-                <TextView
-                        android:id="@+id/textview3_row1"
-                        android:layout_height="wrap_content"
-                        android:text="Feb 9"
-                        android:textStyle="bold"
-                        android:typeface="serif"/>
+                <!--<TextView-->
+                        <!--android:id="@+id/textview3_row1"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Feb 9"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:typeface="serif"/>-->
 
-                <TextView
-                        android:id="@+id/textview4_row1"
-                        android:layout_height="wrap_content"
-                        android:text="Feb 10"
-                        android:textStyle="bold"
-                        android:typeface="serif"/>
+                <!--<TextView-->
+                        <!--android:id="@+id/textview4_row1"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="Feb 10"-->
+                        <!--android:textStyle="bold"-->
+                        <!--android:typeface="serif"/>-->
 
-                <TextView
-                    android:id="@+id/textview5_row1"
-                    android:layout_height="wrap_content"
-                    android:text="Feb 11"
-                    android:textStyle="bold"
-                    android:typeface="serif" />
-            </TableRow>
+                <!--<TextView-->
+                    <!--android:id="@+id/textview5_row1"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Feb 11"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:typeface="serif" />-->
+            <!--</TableRow>-->
 
-            <TableRow
-                android:id="@+id/tablerow_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            <!--<TableRow-->
+                <!--android:id="@+id/tablerow_2"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
 
-                <TextView
-                    android:id="@+id/textview1_row2"
-                    android:text="Day High"
-                    android:textStyle="bold" />
+                <!--<TextView-->
+                    <!--android:id="@+id/textview1_row2"-->
+                    <!--android:text="Day High"-->
+                    <!--android:textStyle="bold" />-->
 
-                <TextView
-                    android:id="@+id/textview2_row2"
-                    android:layout_span="2"
-                    android:gravity="center_horizontal"
-                    android:text="28 F" />
+                <!--<TextView-->
+                    <!--android:id="@+id/textview2_row2"-->
+                    <!--android:layout_span="2"-->
+                    <!--android:gravity="center_horizontal"-->
+                    <!--android:text="28 F" />-->
 
-                <TextView
-                        android:id="@+id/textview3_row2"
-                        android:gravity="center_horizontal"
-                        android:text="26 F"/>
+                <!--<TextView-->
+                        <!--android:id="@+id/textview3_row2"-->
+                        <!--android:gravity="center_horizontal"-->
+                        <!--android:text="26 F"/>-->
 
-                <TextView
-                        android:id="@+id/textview4_row2"
-                        android:gravity="center_horizontal"
-                        android:text="20 F"/>
+                <!--<TextView-->
+                        <!--android:id="@+id/textview4_row2"-->
+                        <!--android:gravity="center_horizontal"-->
+                        <!--android:text="20 F"/>-->
 
-                <TextView
-                    android:id="@+id/textview5_row2"
-                    android:gravity="center_horizontal"
-                    android:text="10 F" />
-            </TableRow>
+                <!--<TextView-->
+                        <!--android:id="@+id/textview5_row2"-->
+                        <!--android:gravity="center_horizontal"-->
+                        <!--android:text="10 F"/>-->
+            <!--</TableRow>-->
 
-            <TableRow
-                android:id="@+id/tablerow_3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            <!--<TableRow-->
+                <!--android:id="@+id/tablerow_3"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
 
-                <TextView
-                    android:id="@+id/textview1_row3"
-                    android:text="Day Low"
-                    android:textStyle="bold" />
+                <!--<TextView-->
+                    <!--android:id="@+id/textview1_row3"-->
+                    <!--android:text="Day Low"-->
+                    <!--android:textStyle="bold" />-->
 
-                <TextView
-                        android:id="@+id/textview2_row3"
-                        android:gravity="center_horizontal"
-                        android:text="10 F"/>
+                <!--<TextView-->
+                        <!--android:id="@+id/textview2_row3"-->
+                        <!--android:gravity="center_horizontal"-->
+                        <!--android:text="10 F"/>-->
 
-                <TextView
-                    android:id="@+id/textview3_row3"
-                    android:gravity="center_horizontal"
-                    android:text="12 F" />
+                <!--<TextView-->
+                    <!--android:id="@+id/textview3_row3"-->
+                    <!--android:gravity="center_horizontal"-->
+                    <!--android:text="12 F" />-->
 
-                <TextView
-                    android:id="@+id/textview4_row3"
-                    android:gravity="center_horizontal"
-                    android:text="12 F" />
+                <!--<TextView-->
+                    <!--android:id="@+id/textview4_row3"-->
+                    <!--android:gravity="center_horizontal"-->
+                    <!--android:text="12 F" />-->
 
-                <TextView
-                    android:id="@+id/textview5_row3"
-                    android:gravity="center_horizontal"
-                    android:text="12 F" />
+                <!--<TextView-->
+                    <!--android:id="@+id/textview5_row3"-->
+                    <!--android:gravity="center_horizontal"-->
+                    <!--android:text="12 F" />-->
 
-                <TextView
-                    android:id="@+id/textview6_row3"
-                    android:gravity="center_horizontal"
-                    android:text="12 F" />
+                <!--<TextView-->
+                    <!--android:id="@+id/textview6_row3"-->
+                    <!--android:gravity="center_horizontal"-->
+                    <!--android:text="12 F" />-->
 
-            </TableRow>
+            <!--</TableRow>-->
         </TableLayout>
     </RelativeLayout>
 </ScrollView>

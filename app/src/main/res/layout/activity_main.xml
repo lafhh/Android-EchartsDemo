@@ -20,10 +20,6 @@
                     android:id="@+id/textview0_row1"
                     android:gravity="center"
                     android:text="col1"/>
-
-            <TextView
-                android:text=""
-                />
             <TextView
                     android:id="@+id/textview1_row1"
                     android:gravity="center"

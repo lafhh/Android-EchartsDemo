@@ -2,27 +2,20 @@ package com.laf.androidechartdemo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Gravity;
 import android.webkit.WebView;
-import android.widget.ScrollView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
-import android.widget.TextView;
-
-import java.util.ArrayList;
-import java.util.HashMap;
 
 import static android.media.CamcorderProfile.get;
 
 public class MainActivity extends AppCompatActivity {
 
     private WebView mWebView;
-    private ScrollView scrollView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_echart);
 
         mWebView = (WebView) findViewById(R.id.webView);
         mWebView.getSettings().setJavaScriptEnabled(true);
@@ -33,29 +26,26 @@ public class MainActivity extends AppCompatActivity {
 //        mWebView.addJavascriptInterface(new JsObject(), "injectedObject");
         mWebView.loadUrl("file:///android_asset/jsWeb/main.html");
 
-        scrollView = (ScrollView) findViewById(R.id.scrollview);
-        initData();
+        TableLayout table = (TableLayout) findViewById(R.id.tablelayout);
+        addRows(table);
     }
 
-    private void initData() {
+    private void addRows(TableLayout table) {
         int row = 10;
         int column = 5;
-        TableLayout table = new TableLayout(this);
-        table.setShrinkAllColumns(true);
-        table.setStretchAllColumns(true);
-        scrollView.addView(table);
-        for (int i = 0; i < row; i++) {
-            TableRow tableRow = new TableRow(this);
-            tableRow.setGravity(Gravity.CENTER);
-            for (int j = 0; j < column; j++) {
-                String content = "col" + (i + 1) + "," + (j + 1);
-                TextView txtView = new TextView(this);
-                txtView.setGravity(Gravity.CENTER);
-                txtView.setText(content);
-                tableRow.addView(txtView);
-            }
-            table.addView(tableRow);
-        }
+
+        TableRow rowTitle = new TableRow(this);
+        //居中
+
+        TableRow rowLabels = new TableRow(this);
+        TableRow rowHighs = new TableRow(this);
+        TableRow rowLows = new TableRow(this);
+        TableRow rowConditions = new TableRow(this);
+        
+
+
+
+
     }
 }
 
